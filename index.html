@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>🌚Dank Mei mei generator</title>
+</head>
+<body>
+    <h1>Mei Mei Generator</h1>
+    <!--Upload image-->
+
+    <p>Upload a Image:
+        <input type="file" id="myFile" name="filename">
+    </p>
+    <!--Input text fields-->
+
+    <label for="ttext">Top text:</label>
+    <input type="text" id="ttext" placeholder="Enter top text"><br/><br/>
+    <label for="btext">Bottom text:</label>
+    <input type="text" id="btext" placeholder="Enter bottom text">
+
+    <!-- Memei display-->
+
+    <div id="Memei-box">
+        <img id="memeibox" src="placeholder.jpg" alt="Image preview"/>
+        <div id="ttextdisplay"></div>
+        <div id="btextdisplay"></div>
+    </div>
+    <br>
+    <button id="clearButton">Clear Memei</button>
+    <script src="index.js"></script>
+</body>
+</html>
